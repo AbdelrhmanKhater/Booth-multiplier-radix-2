@@ -1,0 +1,8 @@
+MESSAGE "File: F:\VHDL\BoothAlgorithm\BoothAlgorithm\src\booth.vhd" 
+MESSAGE "Compile Entity "Booth_ent"" 
+MESSAGE "Compile Architecture "Booth_arch" of Entity "Booth_ent"" 
+MESSAGE "File: F:\VHDL\BoothAlgorithm\BoothAlgorithm\src\testbench\booth_ent_tb.vhd" 
+MESSAGE "Compile Entity "booth_ent_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "booth_ent_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_booth_ent"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

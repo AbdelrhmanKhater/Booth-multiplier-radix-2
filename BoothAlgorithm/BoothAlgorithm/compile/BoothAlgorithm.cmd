@@ -1,0 +1,1 @@
+-w -s "F:\VHDL\BoothAlgorithm\library.cfg"  -j "F:\VHDL\BoothAlgorithm\BoothAlgorithm\projlib.cfg"  -d "F:\VHDL\BoothAlgorithm\BoothAlgorithm\compile"   -work BoothAlgorithm  -dbg -e 100 -2002 "F:\\VHDL\\BoothAlgorithm\\BoothAlgorithm\\src\\booth.vhd"  "F:\\VHDL\\BoothAlgorithm\\BoothAlgorithm\\src\\testbench\\booth_ent_tb.vhd" 

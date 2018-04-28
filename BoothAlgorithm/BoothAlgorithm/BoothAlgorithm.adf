@@ -1,0 +1,46 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=BoothAlgorithm
+
+[Library]
+BoothAlgorithm=.\BoothAlgorithm.LIB
+
+[$LibMap$]
+BoothAlgorithm=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=booth_ent_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Groups]
+TestBench=1
+
+[Files]
+/Booth.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+TestBench/booth_ent_TB.vhd=-1
+TestBench/booth_ent_TB_runtest.do=-1
+
+[Files.Data]
+.\src\Booth.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\TestBench\booth_ent_TB.vhd=VHDL Test Bench
+.\src\TestBench\booth_ent_TB_runtest.do=Macro
+

@@ -1,0 +1,6 @@
+196
+~E 1 "./src/TestBench/booth_ent_TB.vhd" 6 booth_ent_tb
+~A 1 "./src/testbench/booth_ent_tb.vhd" 9 tb_architecture
+~E 1 "./src/Booth.vhd" 28 booth_ent
+~A 1 "./src/booth.vhd" 38 booth_arch
+~C 1 "./src/testbench/booth_ent_tb.vhd" 54 testbench_for_booth_ent

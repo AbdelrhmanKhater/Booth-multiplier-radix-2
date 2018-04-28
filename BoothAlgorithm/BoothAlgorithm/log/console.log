@@ -1,0 +1,44 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -work BoothAlgorithm -2002  $DSN/src/Booth.vhd
+# Compile...
+# File: F:\VHDL\BoothAlgorithm\BoothAlgorithm\src\Booth.vhd
+# Compile Entity "Booth_ent"
+# Compile Architecture "Booth_arch" of Entity "Booth_ent"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -work BoothAlgorithm -2002  $DSN/src/booth.vhd $DSN/src/testbench/booth_ent_tb.vhd
+# Compile...
+# File: F:\VHDL\BoothAlgorithm\BoothAlgorithm\src\booth.vhd
+# Compile Entity "Booth_ent"
+# Compile Architecture "Booth_arch" of Entity "Booth_ent"
+# File: F:\VHDL\BoothAlgorithm\BoothAlgorithm\src\testbench\booth_ent_tb.vhd
+# Compile Entity "booth_ent_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "booth_ent_tb"
+# Compile Configuration "TESTBENCH_FOR_booth_ent"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  booth_ent_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1752 kB (elbread=1023 elab2=458 kernel=270 sdf=0)
+# KERNEL: ASDB file was created in location F:\VHDL\BoothAlgorithm\BoothAlgorithm\src\wave.asdb
+#  6:48 PM, Saturday, April 28, 2018
+#  Simulation has been initialized
+#  Selected Top-Level: booth_ent_tb (tb_architecture)
+# 3 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+#  Simulation has been stopped
